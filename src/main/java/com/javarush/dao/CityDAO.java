@@ -4,6 +4,7 @@ import com.javarush.domain.City;
 import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class CityDAO {
@@ -18,6 +19,16 @@ public class CityDAO {
         query.setFirstResult(offset);
         query.setMaxResults(limit);
         return query.list();
+    }
+
+    public List<City> allCities(){
+        List<City> allCities = new ArrayList<>();
+        int totalCount = getTotalCount();
+        int step = 500;
+        for (int i = 0; i < totalCount; i += step) {
+            allCities.addAll(getItems(i, step));
+        }
+        return allCities;
     }
 
     public int getTotalCount() {
