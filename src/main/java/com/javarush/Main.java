@@ -1,6 +1,7 @@
 package com.javarush;
 
 import com.javarush.domain.City;
+import com.javarush.mapper.MapperFromCityToCitycountry;
 import com.javarush.redis.CityCountry;
 
 import java.util.List;

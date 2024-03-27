@@ -10,8 +10,8 @@ import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @ExtendWith(MockitoExtension.class)
 public class CityDAOTest {
@@ -54,25 +54,25 @@ public class CityDAOTest {
     }
 
     @Test
-    public void testGetItems(){
+    public void testGetItems() {
         cityDAO.getItems(0, 500);
         Mockito.verify(cityDAO).getItems(0, 500);
     }
 
     @Test
-    public void testAllCities(){
+    public void testAllCities() {
         cityDAO.allCities();
         Mockito.verify(cityDAO).allCities();
     }
 
     @Test
-    public void testGetTotalCount(){
+    public void testGetTotalCount() {
         Mockito.doReturn(5000).when(cityDAO).getTotalCount();
         assertEquals(5000, cityDAO.getTotalCount());
     }
 
     @Test
-    public void testGetById(){
+    public void testGetById() {
         cityDAO.getById(5);
         Mockito.verify(cityDAO).getById(5);
     }

@@ -1,4 +1,4 @@
-package com.javarush;
+package com.javarush.mapper;
 
 import com.javarush.domain.City;
 import com.javarush.domain.Country;

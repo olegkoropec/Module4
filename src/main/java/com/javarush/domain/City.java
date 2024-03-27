@@ -16,7 +16,6 @@ public class City {
     private Country country;
 
     private String district;
-
     private Integer population;
 
     public Integer getId() {

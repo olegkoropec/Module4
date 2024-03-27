@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b72cea98-a588-48d9-ad12-8462278f7b0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/project4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/PrepareAndTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/PrepareAndTesting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarush/dao/CountryDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarush/dao/CountryDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/domain/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/domain/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/redis/CityCountry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/redis/CityCountry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarush/dao/CityDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarush/dao/CityDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javarush/PrepareAndTesting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/javarush/PrepareAndTesting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/javarush/dao/CityDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/javarush/dao/CityDAOTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,83 +73,86 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.javarush" />
       <recent name="com.javarush.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CityDAOTest">
-    <configuration name="CityDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PrepareAndTestingTest.testMysqlData">
+    <configuration name="PrepareAndTestingTest.pushToRedis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.dao.*" />
+          <option name="PATTERN" value="com.javarush.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.javarush.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.javarush.dao.CityDAOTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CityDAOTest.testAllCities" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javarush.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.javarush.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.javarush.dao.CityDAOTest" />
-      <option name="METHOD_NAME" value="testAllCities" />
+      <option name="PACKAGE_NAME" value="com.javarush" />
+      <option name="MAIN_CLASS_NAME" value="com.javarush.PrepareAndTestingTest" />
+      <option name="METHOD_NAME" value="pushToRedis" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CityDAOTest.testGetById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrepareAndTestingTest.testFetchData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.dao.*" />
+          <option name="PATTERN" value="com.javarush.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.javarush.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.javarush.dao.CityDAOTest" />
-      <option name="METHOD_NAME" value="testGetById" />
+      <option name="PACKAGE_NAME" value="com.javarush" />
+      <option name="MAIN_CLASS_NAME" value="com.javarush.PrepareAndTestingTest" />
+      <option name="METHOD_NAME" value="testFetchData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountryDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrepareAndTestingTest.testMysqlData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.dao.*" />
+          <option name="PATTERN" value="com.javarush.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.javarush.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.javarush.dao.CountryDAOTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.javarush" />
+      <option name="MAIN_CLASS_NAME" value="com.javarush.PrepareAndTestingTest" />
+      <option name="METHOD_NAME" value="testMysqlData" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountryDAOTest.testGetAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrepareAndTestingTest.testPrepareRedisClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.dao.*" />
+          <option name="PATTERN" value="com.javarush.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.javarush.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.javarush.dao.CountryDAOTest" />
-      <option name="METHOD_NAME" value="testGetAll" />
+      <option name="PACKAGE_NAME" value="com.javarush" />
+      <option name="MAIN_CLASS_NAME" value="com.javarush.PrepareAndTestingTest" />
+      <option name="METHOD_NAME" value="testPrepareRedisClient" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrepareAndTestingTest.testRedisDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javarush.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javarush" />
+      <option name="MAIN_CLASS_NAME" value="com.javarush.PrepareAndTestingTest" />
+      <option name="METHOD_NAME" value="testRedisDataTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CityDAOTest" />
-        <item itemvalue="JUnit.CountryDAOTest" />
-        <item itemvalue="JUnit.CountryDAOTest.testGetAll" />
-        <item itemvalue="JUnit.CityDAOTest.testGetById" />
-        <item itemvalue="JUnit.CityDAOTest.testAllCities" />
+        <item itemvalue="JUnit.PrepareAndTestingTest.testMysqlData" />
+        <item itemvalue="JUnit.PrepareAndTestingTest.testRedisDataTest" />
+        <item itemvalue="JUnit.PrepareAndTestingTest.pushToRedis" />
+        <item itemvalue="JUnit.PrepareAndTestingTest.testPrepareRedisClient" />
+        <item itemvalue="JUnit.PrepareAndTestingTest.testFetchData" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +178,7 @@
       <updated>1710509321641</updated>
       <workItem from="1710509322728" duration="5880000" />
       <workItem from="1711135227246" duration="16087000" />
-      <workItem from="1711477717453" duration="12360000" />
+      <workItem from="1711477717453" duration="16177000" />
     </task>
     <servers />
   </component>

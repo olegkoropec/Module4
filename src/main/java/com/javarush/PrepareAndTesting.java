@@ -15,12 +15,10 @@ import io.lettuce.core.api.sync.RedisStringCommands;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-import org.hibernate.cfg.Environment;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.List;
-import java.util.Properties;
 import java.util.Set;
 
 import static java.util.Objects.nonNull;
@@ -71,7 +69,7 @@ public class PrepareAndTesting {
         }
     }
 
-    private RedisClient prepareRedisClient() {
+    RedisClient prepareRedisClient() {
         try (RedisClient redisClient = RedisClient.create(RedisURI.create("localhost", 6379))) {
             return redisClient;
         }

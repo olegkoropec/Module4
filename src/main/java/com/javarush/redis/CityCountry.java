@@ -7,27 +7,16 @@ import java.util.Set;
 
 public class CityCountry {
     private Integer id;
-
     private String name;
-
     private String district;
-
     private Integer population;
-
     private String countryCode;
-
     private String alternativeCountryCode;
-
     private String countryName;
-
     private Continent continent;
-
     private String countryRegion;
-
     private BigDecimal countrySurfaceArea;
-
     private Integer countryPopulation;
-
     private Set<Language> languages;
 
     public Integer getId() {
@@ -118,9 +107,6 @@ public class CityCountry {
         this.countryPopulation = countryPopulation;
     }
 
-    public Set<Language> getLanguages() {
-        return languages;
-    }
 
     public void setLanguages(Set<Language> languages) {
         this.languages = languages;
