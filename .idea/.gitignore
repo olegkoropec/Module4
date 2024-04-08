@@ -1,6 +1,5 @@
-*.class
 target/
 *.iml
 .idea/
-*.xml
 !.gitignore
+!src/
