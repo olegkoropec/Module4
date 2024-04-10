@@ -14,7 +14,7 @@ public class Main {
         List<CityCountry> preparedData = fromCityToCitycountry.transformData(allCities);
         prepareAndTesting.pushToRedis(preparedData);
         prepareAndTesting.sessionFactory.getCurrentSession().close();
-        List<Integer> ids = List.of(3, 254, 123, 4, 189, 89, 345, 118, 10, 102);
+        List<Integer> ids = List.of(3, 254, 123, 4, 189, 89, 345, 118, 10);
         long startRedis = System.currentTimeMillis();
         prepareAndTesting.testRedisData(ids);
         long stopRedis = System.currentTimeMillis();
