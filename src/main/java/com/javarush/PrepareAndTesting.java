@@ -88,7 +88,7 @@ public class PrepareAndTesting {
         }
     }
 
-    void testRedisData(List<Integer> ids) {
+    void retrieveAndProcessRedisData(List<Integer> ids) {
         try (StatefulRedisConnection<String, String> connection = redisClient.connect()) {
             RedisStringCommands<String, String> sync = connection.sync();
             for (Integer id : ids) {
@@ -102,7 +102,7 @@ public class PrepareAndTesting {
         }
     }
 
-    void testMysqlData(List<Integer> ids) {
+    void retrieveAndProcessCityData(List<Integer> ids) {
         try (Session session = sessionFactory.getCurrentSession()) {
             session.beginTransaction();
             for (Integer id : ids) {

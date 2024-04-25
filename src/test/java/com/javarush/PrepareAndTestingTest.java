@@ -72,14 +72,14 @@ class PrepareAndTestingTest {
     @Test
     void testRedisDataTest() {
         List<Integer> integerList = List.of(1,2,3,4);
-        testing.testRedisData(integerList);
-        Mockito.verify(testing).testRedisData(integerList);
+        testing.retrieveAndProcessRedisData(integerList);
+        Mockito.verify(testing).retrieveAndProcessRedisData(integerList);
     }
 
     @Test
     void testMysqlData() {
         List<Integer> integerList = List.of(1,2,3,4,5);
-        testing.testMysqlData(integerList);
-        Mockito.verify(testing).testMysqlData(integerList);
+        testing.retrieveAndProcessCityData(integerList);
+        Mockito.verify(testing).retrieveAndProcessCityData(integerList);
     }
 }
